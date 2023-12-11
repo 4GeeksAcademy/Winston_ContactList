@@ -14,11 +14,11 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"editor.defaultFormatter": "esbenp.prettier-vscode",
+				"editor.defaultFormatter": null,
 				"workbench.editorAssociations": {   
 					"*.md": "vscode.markdown.preview.editor"
 				}
-			},
+			}
 		}
 	},
 
@@ -31,7 +31,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "python docs/assets/greeting.py",
+	"postCreateCommand": "python docs/assets/greeting.py"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
